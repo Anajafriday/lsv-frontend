@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - our journey</title>
     <link rel="stylesheet" href="../style.css" />
+    <script src="../ourinitialtives/scroll.js" defer></script>
   </head>
   <body>
     <header class="">
@@ -433,12 +434,13 @@
             <!-- GRID -->
 
             <div
-              class="flex flex-row gap-4 items-center w-[90rem] divide-x-[0.5px] divide-[#121D2F80]"
+              class="flex transition-transform md:gap-4 md:divide-x-[0.5px] md:divide-[#121D2F80] duration-500 ease-in-out w-max"
+              id="carouselTrack"
             >
               <!-- card one -->
 
               <div
-                class="p-4 h-auto items-center md:w-[25.62875rem] w-[23.62875rem] font-opensans flex flex-col justify-between"
+                class="p-4 h-auto md:items-center md:w-[21rem] lg:w-[25.62875rem] w-[18rem] font-opensans flex flex-col justify-between card-image-container"
               >
                 <!-- Image Section -->
                 <div class="w-full h-[14.125rem]">
@@ -462,7 +464,7 @@
               </div>
               <!-- card 2 -->
               <div
-                class="p-4 h-auto items-center md:w-[25.62875rem] w-[23.62875rem] font-opensans flex flex-col justify-between"
+                class="p-4 h-auto md:items-center md:w-[21rem] lg:w-[25.62875rem] w-[18rem] font-opensans flex flex-col justify-between card-image-container"
               >
                 <!-- Image Section -->
                 <div class="w-full h-[14.125rem]">
@@ -486,7 +488,7 @@
               </div>
               <!-- card 3 -->
               <div
-                class="p-4 h-auto items-center md:w-[25.62875rem] w-[23.62875rem] font-opensans flex flex-col justify-between"
+                class="p-4 h-auto md:items-center md:w-[21rem] lg:w-[25.62875rem] w-[18rem] font-opensans flex flex-col justify-between card-image-container"
               >
                 <!-- Image Section -->
                 <div class="w-full h-[14.125rem]">
@@ -511,7 +513,7 @@
               </div>
               <!-- card 4 -->
               <div
-                class="p-4 h-auto items-center md:w-[25.62875rem] w-[23.62875rem] font-opensans flex flex-col justify-between"
+                class="p-4 h-auto md:items-center md:w-[21rem] lg:w-[25.62875rem] w-[18rem] font-opensans flex flex-col justify-between card-image-container"
               >
                 <!-- Image Section -->
                 <div class="w-full h-[14.125rem]">
@@ -536,7 +538,7 @@
               </div>
             </div>
             <div class="flex justify-end items-end">
-              <button class="text-xl font-semibold capitalize">
+              <button class="text-xl font-semibold capitalize" id="scrollBtn">
                 next &rarr;
               </button>
             </div>

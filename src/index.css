@@ -106,10 +106,11 @@
 
 /* Using ::before for the black background layer */
 .orange-round-down::before {
-  content: "";
+  content: "↑";
   position: absolute;
   bottom: -100%; /* Initially below the element */
   left: 0;
+  font-size: 8rem;
   width: 100%;
   height: 100%;
   background-color: black;
@@ -477,28 +478,37 @@ button {
     opacity: 1;
   }
 }
-
 .custom-bullet-list {
   list-style-type: none; /* Remove default bullets */
   padding-left: 0;
 }
 
-.custom-bullet-list li {
+.custom-bullet-list > li {
   position: relative;
   margin-left: 2rem; /* Space between bullet and text */
   padding: 0.5rem 0; /* Vertical space between items */
   font-family: "Open Sans", sans-serif;
 }
 
-.custom-bullet-list li::before {
+.custom-bullet-list > li::before {
   content: "";
   position: absolute;
   left: -2rem; /* Position the bullet */
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0.8rem; /* Ensure bullet stays aligned with first line of text */
   width: 15px;
   height: 15px;
   background-color: white;
   border: 4px solid #e76a35; /* Orange border for bullet */
   border-radius: 50%; /* Circular bullet */
+}
+
+.custom-bullet-list ul {
+  list-style-type: disc; /* Use default disc bullets for nested lists */
+  padding-left: 1.5rem; /* Adjust padding for nested list items */
+}
+
+.custom-bullet-list ul li {
+  position: relative;
+  margin-left: 0; /* No margin for nested list items */
+  padding-left: 0.5rem; /* Adjust space for nested list items */
 }
