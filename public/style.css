@@ -720,12 +720,20 @@ video {
   margin-left: auto;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .mt-12{
   margin-top: 3rem;
 }
 
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
 }
 
 .mt-3{
@@ -742,6 +750,18 @@ video {
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.mt-96{
+  margin-top: 24rem;
+}
+
+.mt-auto{
+  margin-top: auto;
+}
+
+.mt-40{
+  margin-top: 10rem;
 }
 
 .block{
@@ -910,10 +930,6 @@ video {
 
 .w-\[18rem\]{
   width: 18rem;
-}
-
-.w-\[19\.2rem\]{
-  width: 19.2rem;
 }
 
 .w-\[23\.62875rem\]{
@@ -1099,12 +1115,6 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.divide-x-\[0\.5px\] > :not([hidden]) ~ :not([hidden]){
-  --tw-divide-x-reverse: 0;
-  border-right-width: calc(0.5px * var(--tw-divide-x-reverse));
-  border-left-width: calc(0.5px * calc(1 - var(--tw-divide-x-reverse)));
-}
-
 .divide-y > :not([hidden]) ~ :not([hidden]){
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1115,10 +1125,6 @@ video {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
-}
-
-.divide-\[\#121D2F80\] > :not([hidden]) ~ :not([hidden]){
-  border-color: #121D2F80;
 }
 
 .divide-\[\#353535\] > :not([hidden]) ~ :not([hidden]){
@@ -1449,6 +1455,10 @@ video {
   line-height: 1;
 }
 
+.text-\[1\.125rem\]{
+  font-size: 1.125rem;
+}
+
 .text-\[1\.75rem\]{
   font-size: 1.75rem;
 }
@@ -1505,6 +1515,10 @@ video {
   text-transform: capitalize;
 }
 
+.italic{
+  font-style: italic;
+}
+
 .leading-6{
   line-height: 1.5rem;
 }
@@ -1547,6 +1561,10 @@ video {
 
 .leading-tight{
   line-height: 1.25;
+}
+
+.leading-\[2\.1rem\]{
+  line-height: 2.1rem;
 }
 
 .tracking-tight{
@@ -1640,6 +1658,12 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-\[all\]{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .transition-all{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1660,6 +1684,10 @@ video {
 
 .duration-500{
   transition-duration: 500ms;
+}
+
+.duration-700{
+  transition-duration: 700ms;
 }
 
 .ease-in-out{
@@ -2370,6 +2398,10 @@ button {
     margin-top: 0px;
   }
 
+  .md\:mt-12{
+    margin-top: 3rem;
+  }
+
   .md\:h-52{
     height: 13rem;
   }
@@ -2418,40 +2450,20 @@ button {
     width: 75%;
   }
 
-  .md\:w-\[25\.62875rem\]{
-    width: 25.62875rem;
+  .md\:w-\[21rem\]{
+    width: 21rem;
+  }
+
+  .md\:w-\[22rem\]{
+    width: 22rem;
   }
 
   .md\:w-auto{
     width: auto;
   }
 
-  .md\:w-\[23\.82567rem\]{
-    width: 23.82567rem;
-  }
-
-  .md\:w-\[23\.567rem\]{
-    width: 23.567rem;
-  }
-
-  .md\:w-\[23\.56rem\]{
-    width: 23.56rem;
-  }
-
-  .md\:w-\[23\.467rem\]{
-    width: 23.467rem;
-  }
-
-  .md\:w-\[23rem\]{
-    width: 23rem;
-  }
-
-  .md\:w-\[20rem\]{
-    width: 20rem;
-  }
-
-  .md\:w-\[21rem\]{
-    width: 21rem;
+  .md\:w-4\/5{
+    width: 80%;
   }
 
   .md\:grid-cols-2{
@@ -2460,6 +2472,10 @@ button {
 
   .md\:grid-cols-5{
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row{
@@ -2538,6 +2554,10 @@ button {
     line-height: 1;
   }
 
+  .md\:text-\[2rem\]{
+    font-size: 2rem;
+  }
+
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -2545,6 +2565,22 @@ button {
 
   .md\:font-semibold{
     font-weight: 600;
+  }
+
+  .md\:leading-\[2\.72375rem\]{
+    line-height: 2.72375rem;
+  }
+
+  .md\:leading-\[3\.99875rem\]{
+    line-height: 3.99875rem;
+  }
+
+  .md\:leading-\[3rem\]{
+    line-height: 3rem;
+  }
+
+  .md\:leading-\[3\.2rem\]{
+    line-height: 3.2rem;
   }
 }
 
@@ -2575,6 +2611,14 @@ button {
 
   .lg\:mt-3{
     margin-top: 0.75rem;
+  }
+
+  .lg\:mt-24{
+    margin-top: 6rem;
+  }
+
+  .lg\:mt-28{
+    margin-top: 7rem;
   }
 
   .lg\:flex{
@@ -2609,12 +2653,16 @@ button {
     width: 80%;
   }
 
-  .lg\:w-\[28\.125rem\]{
-    width: 28.125rem;
+  .lg\:w-\[19\.2rem\]{
+    width: 19.2rem;
   }
 
   .lg\:w-\[25\.62875rem\]{
     width: 25.62875rem;
+  }
+
+  .lg\:w-\[28\.125rem\]{
+    width: 28.125rem;
   }
 
   .lg\:flex-1{
@@ -2694,6 +2742,10 @@ button {
 
   .lg\:text-\[3\.5rem\]{
     font-size: 3.5rem;
+  }
+
+  .lg\:text-\[4rem\]{
+    font-size: 4rem;
   }
 
   .lg\:leading-\[4rem\]{

@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LSIV - about the founder</title>
+    <title>How we work with our clients</title>
     <link rel="stylesheet" href="../style.css" />
+    <script src="./scroll.js" defer></script>
   </head>
-  <body>
-    <header class="">
+  <body class="text-accentTextDark">
+    <header class="bg-accentTextLight">
       <nav
         class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -366,231 +367,146 @@
       </div>
     </header>
     <main>
-      <!-- about the founder Section -->
-      <section class="bg-white py-16 rounded">
+      <!-- our  services -->
+      <section class="py-16 rounded bg-accentTextLight">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <h1
-            class="lg:text-7xl text-5xl font-normal font-playfair text-gray-900 text-left md:text-left mb-16"
-          >
-            About the founder
-          </h1>
-          <div class="flex flex-col lg:flex-row justify-between gap-4">
-            <!-- Image Section -->
-            <div class="lg:mt-20 lg:w-1/3 text-xl">
-              <img
-                src="https://images.pexels.com/photos/12903275/pexels-photo-12903275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="the founder of LSIV "
-                class="w-full h-auto rounded-md"
-              />
+          <div class="flex flex-col lg:flex-col justify-between gap-4">
+            <div class="w-full">
+              <h1
+                class="md:text-5xl lg:text-[3.5rem] text-3xl mb-2 font-playfair font-semibold leading-normal"
+              >
+                How we work with our clients
+              </h1>
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 lg:pl-10">
+            <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
               <p
-                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
+                class="text-accentTextDark font-normal leading-[2.1675rem] mb-2 text-xl"
               >
-                <span class="text-primary text-2xl font-medium">
-                  Lolo Cynthia
-                </span>
-                is an international development multimedia producer and
-                award-winning communication strategist with a decade of
-                experience driving transformative social impact.
+                At LSIV, we recognize the distinct strengths and objectives of
+                each organization and individual. That's why we adopt a
+                collaborative approach, tailoring our services to meet your
+                specific requirements.
               </p>
               <p
-                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
+                class="text-primary leading-[2.1675rem] mb-6 text-xl font-semibold"
               >
-                Known for her innovative approach to advocacy, Lolo excels in
-                creating campaigns that promote behavioural change, health
-                education, gender equality, and social justice. Lolo has
-                developed advocacy that has made a significant difference for
-                organizations such as VOICE Amplified, Niyel, USAID, Africa
-                Harvest, Women Crisis Center, Global Surgery Fellowship and the
-                Stories of Girls Resistance.
+                Here's a peek into our partnerships with different change-makers
+                and our key client groups
               </p>
-              <div>
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-                >
-                  Awards & Recognition
-                </h2>
-                <ul
-                  class="custom-bullet-list text-accentTextDark font-medium leading-[2.1675rem] mb-6 md:text-xl"
-                >
-                  <li>
-                    Leading Ladies Africa 100 most influential, powerful, and
-                    innovative Nigerian women in Nigeria in 2020
-                  </li>
-                  <li>Aspen Institute New Voices Fellow</li>
-                  <li>
-                    Media Person to Watch – Y! Naija 2019 New Establishment List
-                  </li>
-                  <li>Social Media Person for Social Good 2019</li>
-                  <li>
-                    UNHCR Media Influencer for the "Telling the Real Story"
-                    program
-                  </li>
-                  <li>
-                    Keynote Speaker - Porter’s Center for Global Leadership
-                    Seminar 2022 and 2024
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-                >
-                  Early Journey and Dedication to Advocacy
-                </h2>
-                <p
-                  class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
-                >
-                  Lolo’s advocacy journey began as an 18-year-old Public Health
-                  undergraduate at Monash University, South Africa.
-                </p>
-                <p
-                  class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
-                >
-                  Despite facing personal challenges and a home environment
-                  where learning was discouraged, she passionately organized
-                  forums on gender equality and women’s rights. This early
-                  dedication led her to establish LoloTalks, a community-based
-                  organization tackling social and health issues through
-                  education and multimedia content.
-                </p>
-              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- about the founder Section -->
-      <section class="bg-[#FFDED0] py-16 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <div class="flex flex-col lg:flex-row-reverse justify-between gap-4">
-            <!-- Image Section -->
-            <div class="lg:mt-20 lg:w-1/3 text-xl">
-              <img
-                src="https://images.pexels.com/photos/12903275/pexels-photo-12903275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="the founder of LSIV "
-                class="w-full h-auto rounded-md"
-              />
-            </div>
-            <!-- Text Section -->
-            <div class="lg:w-2/3 lg:pl-10">
-              <div>
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
+          <!-- discussion Section -->
+          <div class="my-6 w-full">
+            <!-- more discussion -->
+            <div
+              class="description-container grid md:grid-cols-2 grid-cols-1 gap-4"
+            >
+              <!-- disscuss 1 -->
+              <div
+                class="disscuss-item border-b bg-secondary p-6 rounded-lg transition-[all] duration-700"
+              >
+                <div
+                  class="disscuss-head text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
-                  Professional Experience
-                </h2>
-                <ul
-                  class="custom-bullet-list text-accentTextDark font-medium leading-[2.1675rem] mb-6 md:text-xl"
+                  <h3
+                    class="capitalize font-playfair font-[500] md:w-4/5 text-left md:leading-[2.3325rem] text-xl md:text-[1.75rem]"
+                  >
+                    Philanthropy Organizations & NGOs/Non-Profits
+                  </h3>
+                  <span class="icon text-4xl font-semibold font-sans">+</span>
+                </div>
+                <div
+                  class="faq-answer hidden mt-4 text-accentTextDark font-normal leading-[2.1675rem] mb-2 text-lg"
                 >
-                  <li>
-                    Experience in community health, medical social work, and
-                    youth empowerment.
-                  </li>
-                  <li>
-                    Founded LoloTalks to address social & health issues through
-                    advocacy & multimedia content.
-                  </li>
-                  <li>
-                    Led impactful initiatives like the "MyBodyIsMine" program,
-                    reaching thousands with sex education and health resources.
-                  </li>
-                  <li>
-                    Became a prominent media personality in Nigeria, creating
-                    the "Stories Unheard" initiative.
-                  </li>
-                  <li>
-                    Used her platform to advocate for social change through
-                    documentaries and broadcasting.
-                  </li>
-                  <li>
-                    Transitioned to leading LSIV, a consulting firm focused on
-                    maximizing social impact.
-                  </li>
-                  <li>
-                    Bridged the gap between grassroots and media advocacy,
-                    leveraging expertise in strategic advocacy, storytelling,
-                    and community-centered initiatives.
-                  </li>
-                  <li>
-                    Emphasized collaboration and respect for the communities she
-                    serves.
-                  </li>
-                </ul>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat suscipit quas fugit voluptatem recusandae possimus
+                  velit natus vitae eveniet quisquam ratione ducimus, sit alias
+                  maiores necessitatibus, voluptatum numquam illo officia beatae
+                  cupiditate ex sint! Ab, repellendus explicabo voluptas enim
+                  soluta tenetur doloremque repellat necessitatibus, eligendi
+                  illo tempora sed incidunt officiis.
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- HER CORE VALUE -->
-      <section class="bg-miscellanous py-16 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <h2
-            class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-          >
-            Her Core Values
-          </h2>
-          <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6" />
-          <!-- GRID -->
-          <div
-            class="flex flex-wrap lg:flex-row lg:flex-nowrap gap-4 items-center"
-          >
-            <!-- card one -->
-            <div
-              class="p-4 bg-secondary rounded-lg h-[15.9375rem] w-full md:w-[22rem] lg:w-[19.2rem] font-opensans flex flex-col justify-between"
-            >
-              <h3
-                class="text-[2rem] text-3xl leading-[2.272375rem] font-normal md:font-semibold"
+              <!-- disscuss 2 -->
+              <div
+                class="disscuss-item border-b bg-[#FFC6DB] p-6 rounded-lg transition-[all] duration-700"
               >
-                Resilience
-              </h3>
-              <p class="font-normal text-base">
-                Resilience fuels her ability to navigate and overcome societal
-                barriers.
-              </p>
-            </div>
-            <!-- card 2 -->
-            <div
-              class="p-4 bg-[#FFC6DB] rounded-lg h-[15.9375rem] w-full md:w-[22rem] lg:w-[19.2rem] font-opensans flex flex-col justify-between"
-            >
-              <h3
-                class="text-[2rem] leading-[2.272375rem] font-normal md:font-semibold"
+                <div
+                  class="disscuss-head text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
+                >
+                  <h3
+                    class="capitalize font-playfair font-[500] md:w-4/5 text-left md:leading-[2.3325rem] text-xl md:text-[1.75rem]"
+                  >
+                    Research & Academic Institutions
+                  </h3>
+                  <span class="icon text-4xl font-semibold font-sans">+</span>
+                </div>
+                <div
+                  class="faq-answer hidden mt-4 text-accentTextDark font-normal leading-[2.1675rem] mb-2 text-lg"
+                >
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat suscipit quas fugit voluptatem recusandae possimus
+                  velit natus vitae eveniet quisquam ratione ducimus, sit alias
+                  maiores necessitatibus, voluptatum numquam illo officia beatae
+                  cupiditate ex sint! Ab, repellendus explicabo voluptas enim
+                  soluta tenetur doloremque repellat necessitatibus, eligendi
+                  illo tempora sed incidunt officiis.
+                </div>
+              </div>
+              <!-- disscuss 3 -->
+              <div
+                class="disscuss-item border-b bg-[#F1DAB7] p-6 rounded-lg transition-[all] duration-700"
               >
-                Integrity
-              </h3>
-              <p class="font-normal text-base">
-                Integrity guides her commitment to honest and ethical practices
-              </p>
-            </div>
-            <!-- card 3 -->
-            <div
-              class="p-4 bg-[#F1DAB7] rounded-lg h-[15.9375rem] w-full md:w-[22rem] lg:w-[19.2rem] font-opensans flex flex-col justify-between"
-            >
-              <h3
-                class="text-[2rem] leading-[2.272375rem] font-normal md:font-semibold"
+                <div
+                  class="disscuss-head text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
+                >
+                  <h3
+                    class="capitalize font-playfair font-[500] md:w-4/5 text-left md:leading-[2.3325rem] text-xl md:text-[1.75rem]"
+                  >
+                    International Development Organizations & Government
+                    Agencies
+                  </h3>
+                  <span class="icon text-4xl font-semibold font-sans">+</span>
+                </div>
+                <div
+                  class="faq-answer hidden mt-4 text-accentTextDark font-normal leading-[2.1675rem] mb-2 text-lg"
+                >
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat suscipit quas fugit voluptatem recusandae possimus
+                  velit natus vitae eveniet quisquam ratione ducimus, sit alias
+                  maiores necessitatibus, voluptatum numquam illo officia beatae
+                  cupiditate ex sint! Ab, repellendus explicabo voluptas enim
+                  soluta tenetur doloremque repellat necessitatibus, eligendi
+                  illo tempora sed incidunt officiis.
+                </div>
+              </div>
+              <!-- disscuss 4 -->
+              <div
+                class="disscuss-item border-b bg-[#DDC2FF] p-6 rounded-lg transition-[all] duration-700"
               >
-                Empowerment
-              </h3>
-              <p class="font-normal text-base">
-                Empowerment underscores her focus on uplifting communities and
-                individuals to realize their potential.
-              </p>
-            </div>
-            <!-- card 4 -->
-            <div
-              class="p-4 bg-[#DDC2FF] rounded-lg h-[15.9375rem] w-full md:w-[22rem] lg:w-[19.2rem] font-opensans flex flex-col justify-between"
-            >
-              <h3
-                class="text-[2rem] leading-[2.272375rem] font-normal md:font-semibold"
-              >
-                Respect
-              </h3>
-              <p class="font-normal text-base">
-                Respect is fundamental to her approach, ensuring that all
-                interactions honour the dignity and agency of those she works
-                with.
-              </p>
+                <div
+                  class="disscuss-head text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
+                >
+                  <h3
+                    class="capitalize font-playfair font-[500] md:w-4/5 text-left md:leading-[2.3325rem] text-xl md:text-[1.75rem]"
+                  >
+                    Media Firms
+                  </h3>
+                  <span class="icon text-4xl font-semibold font-sans">+</span>
+                </div>
+                <div
+                  class="faq-answer hidden mt-4 text-accentTextDark font-normal leading-[2.1675rem] mb-2 text-lg"
+                >
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat suscipit quas fugit voluptatem recusandae possimus
+                  velit natus vitae eveniet quisquam ratione ducimus, sit alias
+                  maiores necessitatibus, voluptatum numquam illo officia beatae
+                  cupiditate ex sint! Ab, repellendus explicabo voluptas enim
+                  soluta tenetur doloremque repellat necessitatibus, eligendi
+                  illo tempora sed incidunt officiis.
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -940,5 +856,25 @@
         </div>
       </div>
     </footer>
+    <script>
+      // Select all the discussion head elements
+      const discussHeads = document.querySelectorAll(".disscuss-head");
+
+      // Loop through each discussion head
+      discussHeads.forEach((head) => {
+        head.addEventListener("click", function () {
+          // Toggle the hidden class on the corresponding answer (next sibling)
+          const answer = this.nextElementSibling;
+          answer.classList.toggle("hidden");
+          // Toggle the "+" and "-" icons
+          const icon = this.querySelector(".icon");
+          if (icon.textContent === "+") {
+            icon.textContent = "-";
+          } else {
+            icon.textContent = "+";
+          }
+        });
+      });
+    </script>
   </body>
 </html>
